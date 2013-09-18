@@ -1,0 +1,12 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
