@@ -10,3 +10,19 @@ body {
 h1 {
   text-align: center;
 }
+
+#content_container {
+  width: 80%;
+  margin: auto 0;
+  float: left;
+}
+
+#sidebar {
+  width: 20%;
+  margin: auto 0;
+  display:  inline-block;
+}
+
+#about_div, #portfolio_div, #video_div, #contact_div {
+  display: none;
+}
