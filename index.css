@@ -1,5 +1,8 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .8px;
 }
 
 #container {
@@ -25,4 +28,17 @@ h1 {
 
 #about_div, #portfolio_div, #video_div, #contact_div {
   display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+  color: #68228B;
+  font-size: 1.2em;
+}
+
+#navbar ul {
+  line-height: 2;
 }
