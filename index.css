@@ -43,3 +43,11 @@ li:hover {
 #navbar ul {
   line-height: 2;
 }
+
+#facebook_purple, #twitter_purple, #linkedin_purple, #github_purple {
+  display: none;
+}
+
+/*#facebook_purple:hover, #twitter_purple:hover, #linkedin_purple:hover, #github_purple:hover {
+  display: block;
+}*/

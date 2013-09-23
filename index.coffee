@@ -35,4 +35,11 @@ $(document).ready ->
     $('#portfolio_div').hide()
     $('#video_div').hide()
 
-  $('#start_div').cycle();
+  $('#facebook').mouseenter () ->
+    $('#facebook_purple').show()
+  $('#facebook').mouseleave () ->
+    $('#facebook_purple').hide()
+
+
+  $('#start_div').cycle()
+
