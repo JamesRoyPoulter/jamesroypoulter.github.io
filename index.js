@@ -29,13 +29,14 @@
       $('#portfolio_div').hide();
       return $('#contact_div').hide();
     });
-    return $('#contact_link').click(function() {
+    $('#contact_link').click(function() {
       $('#contact_div').show();
       $('#start_div').hide();
       $('#about_div').hide();
       $('#portfolio_div').hide();
       return $('#video_div').hide();
     });
+    return $('#start_div').cycle();
   });
 
 }).call(this);

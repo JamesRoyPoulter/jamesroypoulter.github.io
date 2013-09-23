@@ -34,3 +34,5 @@ $(document).ready ->
     $('#about_div').hide()
     $('#portfolio_div').hide()
     $('#video_div').hide()
+
+  $('#start_div').cycle();
