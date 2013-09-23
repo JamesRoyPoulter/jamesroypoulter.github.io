@@ -40,6 +40,20 @@ $(document).ready ->
   $('#facebook').mouseleave () ->
     $('#facebook_purple').hide()
 
+  $('#twitter').mouseenter () ->
+    $('#twitter_purple').show()
+  $('#twitter').mouseleave () ->
+    $('#twitter_purple').hide()
+
+  $('#linkedin').mouseenter () ->
+    $('#linkedin_purple').show()
+  $('#linkedin').mouseleave () ->
+    $('#linkedin_purple').hide()
+
+  $('#github').mouseenter () ->
+    $('#github_purple').show()
+  $('#github').mouseleave () ->
+    $('#github_purple').hide()
 
   $('#start_div').cycle()
 

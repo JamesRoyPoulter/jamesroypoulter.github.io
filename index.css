@@ -37,15 +37,29 @@ ul {
 
 li:hover {
   color: #68228B;
-  font-size: 1.2em;
+  letter-spacing: 2px;
 }
 
 #navbar ul {
   line-height: 2;
 }
 
+.divider {
+  position: relative;
+  height: 35px;
+}
+
+#height {
+  height: 34px;
+}
+
+#facebook, #twitter, #linkedin, #github {
+  position: absolute;
+}
+
 #facebook_purple, #twitter_purple, #linkedin_purple, #github_purple {
   display: none;
+  position: absolute;
 }
 
 /*#facebook_purple:hover, #twitter_purple:hover, #linkedin_purple:hover, #github_purple:hover {
