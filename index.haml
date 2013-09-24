@@ -8,6 +8,7 @@
         %script{:src => "http://code.jquery.com/jquery-1.10.1.min.js"}
         %script{:src => "http://code.jquery.com/jquery-migrate-1.2.1.min.js"}
         %script{:src => "cycle.js"}
+        %script{:src => "jquery.fitvids.js"}
         %script{:src => "index.js"}
   %body
     #container
@@ -31,11 +32,20 @@
         #about_div about
         #portfolio_div portfolio
         #video_div
-          %iframe{:allowfullscreen => "", :frameborder => "0", :height => "281", :mozallowfullscreen => "", :src => "http://player.vimeo.com/video/70320776", :webkitallowfullscreen => "", :width => "500"}
-          weekend change
-          startup weekend
-          date
-          description
+          .videos
+            .video_video
+              %iframe{:allowfullscreen => "", :frameborder => "0", :height => "281", :mozallowfullscreen => "", :src => "http://player.vimeo.com/video/70320776", :webkitallowfullscreen => "", :width => "500"}
+            .video_words
+              .title weekend change
+              %p.description startup weekend
+              %p.date date
+          .videos
+            .video_video
+              %iframe{:allowfullscreen => "", :frameborder => "0", :height => "281", :mozallowfullscreen => "", :src => "http://player.vimeo.com/video/42997428", :webkitallowfullscreen => "", :width => "500"}
+            .video_words
+              .title weekend change
+              %p.description startup weekend
+              %p.date date
         #contact_div contact
       #sidebar
         #navbar

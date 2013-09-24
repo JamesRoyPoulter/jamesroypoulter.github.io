@@ -57,3 +57,5 @@ $(document).ready ->
 
   $('#start_div').cycle()
 
+  $('#container').fitVids()
+
